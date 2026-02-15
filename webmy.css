@@ -53,6 +53,18 @@ body {
     
 }
 
+.menu a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.menu a:hover{
+    color: coral;
+    transition: all 1s ease;
+
+}
+
 
 .menu li {
     cursor: pointer;
@@ -66,6 +78,12 @@ body {
     border-radius: 8px;
     color: white;
     cursor: pointer;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -94,6 +112,19 @@ body {
 .search-box {
     position: relative;
     z-index: 2;
+}
+
+.hero-buttons{
+    padding-top: 25px;
+}
+
+.hero-p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.hero-h1{
+    font-size: 44px;
 }
 
 
@@ -385,3 +416,1253 @@ label {
     background-color: coral;
     color: white;
 }
+
+
+
+.hero2{
+    width: 100%;
+    height: 370px;
+    background:linear-gradient(rgba(0, 0, 0, 0.37)), url("https://images.pexels.com/photos/1624255/pexels-photo-1624255.jpeg?cs=srgb&dl=pexels-eberhardgross-1624255.jpg&fm=jpg") no-repeat center;
+}
+
+.heros2{
+    margin-bottom: 15px;
+    padding-top: 185px;
+    font-size: 24px;
+}
+
+.heros3{
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.hero2 a{
+    text-decoration: none;
+    color: coral;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: inline-block
+}
+
+.hero2 p{
+    color: white;
+    display: inline-block
+}
+
+
+.about {
+  padding: 60px 80px;
+  padding-left: 130px;
+}
+
+.about-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-text {
+  width: 50%;
+}
+
+.about-text h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  color: grey;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.stats h3 {
+  color: coral;
+  font-size: 32px;
+  margin-right: 20px;
+}
+
+.stats span {
+  font-size: 14px;
+  color: lightslategrey;
+}
+
+.about-image {
+  width: 50%;
+  position: relative;
+  gap: 100px;
+}
+
+.main-img {
+  width: 500px;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.small-img {
+  width: 200px;
+  position: absolute;
+  bottom: -20px;
+  right: -110px;
+  border-radius: 12px;
+  border: 6px solid white;
+  margin-left: 200px;
+}
+
+.aboutbadges{
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-left: 300px;
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+
+.card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.card-img {
+  position: relative;
+}
+
+.card-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 12px;
+  font-size: 12px;
+  color: white;
+  border-radius: 20px;
+}
+
+.popular { background: red; }
+.editor { background: yellow; }
+.new { background: rgb(0, 255, 0); }
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h3 {
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: grey;
+  line-height: 1.5;
+}
+
+.tags {
+  margin: 15px 0;
+}
+
+.tags span {
+  display: inline-block;
+  font-size: 11px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: white;
+  color: red;
+  margin-right: 6px;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.card-footer a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cards h3{
+    color: black;
+}
+
+
+.about h3{
+    display: inline-block;
+    color:  coral;
+    padding-top: 20px;
+    padding-left: 150px;
+    margin-right: 50px;
+}
+
+.about h2{
+    display: inline-block;
+    padding-bottom: 50px;
+    margin-right: 100px;
+}
+
+
+.section-title {
+  position: relative;
+  max-width: 600px;
+  padding-left: 80px;
+}
+
+.small-text {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: grey;
+  display: inline-block;
+  position: relative;
+  padding-right: 60px;
+}
+
+
+.small-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 50px;
+  height: 1px;
+  background: coral;
+}
+
+.section-title h2 {
+  margin-top: 8px;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+}
+
+
+.pictures{
+    margin-left: 130px;
+}
+
+.picture1{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    background: url(https://advantage-travel.fr/wp-content/uploads/2024/03/belle-fille-debout-bateau-recherche-montagnes-dans-barrage-ratchaprapha-au-parc-national-khao-sok-province-surat-thani-thailande-1.jpg) center ;
+    margin-right: 25px;
+    
+
+}
+
+.picture2{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 25px;
+    background: url(https://www.holidaymonk.com/wp-content/uploads/2024/10/The-Ultimate-Travel-Guide-to-Thailand.webp) center;
+
+}
+
+.picture3{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 25px;
+    background: url(https://travelco.lk/wp-content/uploads/2024/11/Best-5-Destinations-to-Travel-in-2025.jpg) center;
+}
+
+
+.picture4{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 25px;
+    background: url(https://blog.airbaltic.com/wp-content/uploads/2021/07/airbaltic_blog_solo_travel_main_2-790x474.jpg) center no-repeat;
+}
+
+
+
+.picture5{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    background: url(https://images.trvl-media.com/place/6001233/2ec6870d-15cd-440d-81cf-c88ab7dbad7f.jpg?impolicy=fcrop&w=1000&h=563&p=1&q=medium) center ;
+    margin-right: 25px;
+    
+
+}
+
+.picture6{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 25px;
+    background: url(https://i.tribune.com.pk/media/images/featured-image1738136667-0/featured-image1738136667-0.webp) center;
+
+}
+
+.picture7{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 25px;
+    background: url(https://wetraveltheworld.de/wp-content/uploads/2020/07/wetraveltheworld_caro-martin_titel_01-1-983x464.jpg) center;
+}
+
+
+.picture8{
+    width: 250px;
+    height: 400px;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 25px;
+    background: url(https://ocdn.eu/pulscms-transforms/1/PU0ktkpTURBXy8xNmI4OGY2OTU0MjFmNjU3NWRkMDUzMWRmZjUxYjUwZC5qcGeSlQMAAM0FVc0C_5UCzQfQAMLD) center no-repeat;
+}
+
+.toursbtn{
+    background-color: coral;
+    color: white;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: none;
+   
+}
+
+.toursbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.stats h3{
+    margin-left: -130px;
+}
+
+.footer {
+  background: radial-gradient(circle at top, #0b1a1e, #050c0f);
+  color: white;
+  padding-top: 60px;
+}
+
+.footer-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.3fr;
+  gap: 40px;
+}
+
+.footer h2,
+.footer h3 {
+  color: white;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.footer h3::after {
+  content: "";
+  width: 30px;
+  height: 2px;
+  background: coral;
+  display: block;
+  margin-top: 8px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.subscribe {
+  margin-top: 15px;
+  display: flex;
+}
+
+.subscribe input {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  outline: none;
+}
+
+.subscribe button {
+  width: 50px;
+  border: none;
+  background: coral;
+  color: white;
+  font-size: 18px;
+  border-radius: 0 25px 25px 0;
+  cursor: pointer;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: lightslategrey;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer ul li a:hover {
+  color: coral;
+}
+
+.contact-item {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.socials {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.socials a {
+  width: 38px;
+  height: 38px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-top: 1px solid black;
+  margin-top: 40px;
+  padding: 20px 5%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.footer-bottom a {
+  color: grey;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: coral;
+}
+
+
+.Destinationstitle{
+    color: black;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+
+.btn1{
+    width: 50px;
+    height: 25px;
+    background-color: coral;
+    border: none;
+    border-radius: 18px;
+    color: white;
+}
+
+.btn2{
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    color: black;
+    transition: all 1s ease;
+}
+
+
+.allbtns :hover{
+    background-color: coral;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+
+}
+
+
+.btn3{
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    color: black;
+    transition: all 1s ease;
+}
+
+
+.btn4{
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    color: black;
+    transition: all 1s ease;
+}
+
+
+.btn5{
+    width: 50px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    color: black;
+    transition: all 1s ease;
+}
+
+
+.card1 {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  height: 420px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: url("https://res.klook.com/image/upload/fl_lossy.progressive,q_60/Mobile/City/swox6wjsl5ndvkv5jvum.jpg") center/cover no-repeat;
+}
+
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+}
+
+.content {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: white;
+  max-width: 500px;
+  z-index: 1;
+}
+
+.badge{
+  background: red;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  border:none ;
+  margin-top: 14px;
+}
+
+h1 {
+  margin: 15px 0 10px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.bottom {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.price {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+
+.Bali{
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://www.hostelworld.com/blog/wp-content/uploads/dreamstimesmall_322299871.jpg) center;
+    margin-right: 25px;
+}
+
+.popular2{
+    color: white;
+    background-color: rgb(0, 255, 255);
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-right: 120px;
+   
+}
+
+.minicards h3{
+    margin-right: 100px;
+    padding: 10px;
+  
+   
+}
+
+.Adventure{
+    color: white;
+    background-color: coral;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-right: 120px;
+    
+
+}
+
+.CostaRica{
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://image.urlaubspiraten.de/640/image/upload/v1603282785/mediavault_images/njj86gxaivachs4slnzf.jpg) center;
+    margin: 25px;
+
+}
+
+
+.CairoEgypt{
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://i0.wp.com/egypttimetravel.com/wp-content/uploads/2020/06/Cairo-Egypt.jpg) center;
+    margin: 25px;
+    
+
+}
+
+.Culture{
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-right: 120px;
+    
+  
+
+}
+
+.Singapore{
+    width: 250px;
+    height: 250px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/b1/singapore.jpg?w=1200&h=700&s=1) center;
+    margin: 25px;
+
+}
+
+.Luxury{
+    color: white;
+    background-color: rgb(177, 130, 238);
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-right: 120px;
+
+
+}
+
+.Santorini{
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://soloflighted.com/wp-content/uploads/2013/06/clip_image001.jpg) center;
+    margin: 25px;
+
+
+}
+
+.Romantic{
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-left: -200px;
+
+}
+
+.Santorini h2{
+    font-size: 30px;
+    margin-right: 80px;
+
+
+}
+
+.Santorini p{
+    margin-left: 0px;
+
+}
+
+.like{
+    margin-left: -200px;
+
+}
+
+
+.Rio{
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://loveincorporated.blob.core.windows.net/contentimages/fullsize/3b75fe9d-34a1-45cd-aa07-e7ed7e1bfbee-rio-de-janeiro-full-guide-lead.jpg) center;
+    margin: 25px;
+
+
+}
+
+.Vibrant{
+    color: white;
+    background-color: coral;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-left: -200px;
+
+}
+
+
+
+.Rio h2{
+    font-size: 30px;
+    margin-right: 110px;
+
+
+}
+
+.Rio p{
+    margin-left: 0px;
+
+}
+
+
+.Cape{
+    width: 350px;
+    height: 350px;
+    border-radius: 16px;
+    display: inline-block;
+    background: linear-gradient(rgba(0, 0, 0, 0.281)), url(https://loveincorporated.blob.core.windows.net/contentimages/fullsize/3b75fe9d-34a1-45cd-aa07-e7ed7e1bfbee-rio-de-janeiro-full-guide-lead.jpg) center;
+    margin: 25px;
+
+
+}
+
+.Scenic{
+    color: white;
+    background-color: turquoise;
+    border: none;
+    border-radius: 16px;
+    height: 25px;
+    width: 100px;
+    margin-top: 160px;
+    margin-left: -200px;
+
+
+}
+
+
+.Cape h2{
+    font-size: 30px;
+    margin-right: 150px;
+    
+
+
+}
+
+.Cape p{
+    margin-left: 0px;
+
+}
+
+
+.Ready{
+    width: 500px;
+    height: 220px;
+    border: 2px solid rgb(189, 187, 187);
+    border-radius: 16px;
+    padding-top: 50px;
+    
+}
+
+
+.Ready h2{
+    color: black;
+}
+
+.Ready p{
+    color: grey;
+}
+
+.readybtn{
+    color: white;
+    background-color: coral;
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.Ready a{
+    color: white;
+    text-decoration: none;
+}
+
+.img {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 500px;
+}
+
+.img2 {
+  width: 320px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  transition: all 2s ease;
+}
+
+
+
+
+.img2 :hover{
+    width: 400px;
+    height: 300px;
+    transition: all 2s ease;
+    
+}
+
+
+
+.img2 :hover{
+    background-color: coral;
+    transition: all 0.3s ease;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.big {
+  grid-row: span 2;
+  height: 500px;
+}
+
+.wide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+ 
+}
+
+
+.small {
+  height: 5px;
+  width: 150px;
+}
+
+.small2{
+    width: 150px;
+    height: 50px;
+}
+
+.btngallery{
+    width: 200px;
+    height: 50px;
+    border: 2px solid coral;
+    color: black;
+    background: white;
+    border-radius: 35px;
+}
+
+
+.search-box2{
+    width: 900px;
+    height: 100px;
+    border: 2px solid lightgray;
+    border-radius: 75px;
+    padding-top: 20px;
+    padding-right: 80px;
+    display: inline-block;
+}
+
+.Discover h1{
+    color: black;
+    font-size: 55px;
+}
+
+.Discover p{
+    color: grey;
+    font-size: 18px;
+}
+
+.search-box2{
+    width: 700px;
+    height: 200px;
+    
+}
+
+.search-boxs{
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-top: 30px;
+
+
+}
+
+.btnsearch{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: coral;
+    margin-left: 0px;
+    display: inline-block;
+    margin-left: 130px;
+}
+
+.toursbtn{
+    margin: auto;
+    width: 100px;
+    display: inline-block;
+    height: 35px;
+    border-radius: 55px;
+    background-color: white;
+    color: black;
+    border: 2px solid grey;
+}
+
+.toursbtn1{
+    margin-left: 65px;
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: coral;
+    border-radius: 55px;
+    border: none;
+    display: inline-block;
+
+}
+
+
+
+.card2 {
+  display: flex;
+  max-width: 900px;
+  background:  white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card2-img img {
+  width: 380px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card2-content {
+  padding: 30px;
+  flex: 1;
+}
+
+.badge {
+  background: coral;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.desc {
+  color: grey;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.stars {
+  color: coral;
+}
+
+.price {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.price span {
+  font-size: 32px;
+  color: coral;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-main {
+  background: coral;
+  color: white;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.buttons a {
+  color: coral;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btnbadge{
+    width: 250px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    border: none;
+    border-radius: 16px;
+}
+
+
+
+.explore5 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.heading5 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: black;
+}
+
+.cards5 {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card5 {
+  width: 220px;
+  text-align: center;
+}
+
+.card5 img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 15px;
+}
+
+.title5 {
+  font-size: 18px;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.count5 {
+  font-size: 14px;
+  color: grey;
+}
+
+
+
+
+.container6 {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card6 {
+    background: #ffffff;
+    width: 420px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card6:hover {
+    transform: translateY(-8px);
+}
+
+.card-img6 {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content6 {
+    padding: 25px;
+}
+
+.badge6 {
+    display: inline-block;
+    background: #ff6b5e;
+    color: white;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.badge6.red6 {
+    background: #ff5a4f;
+}
+
+.card-title6 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.card-text6 {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.card-date6 {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.btn6 {
+    background: #ff5a4f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.btn6:hover {
+    background: #e0483e;
+}
+
+.card6{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+
+
